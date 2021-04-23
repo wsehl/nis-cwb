@@ -3,10 +3,11 @@ import Layout from "@theme/Layout";
 import Frame from "@site/src/components/Frame";
 
 function App() {
+  const url = `https://cie-ebook.ml/glossary-app`;
   return (
     <Layout title="Chemical Glossary App">
       <Frame
-        src="https://cie-ebook-glossary-app.netlify.app"
+        src={url}
         height="calc(100vh - 100%)"
         width="100%"
         style={{
