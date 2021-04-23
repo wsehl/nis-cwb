@@ -6,7 +6,7 @@ function App() {
   return (
     <Layout title="Chemical Glossary App">
       <Frame
-        src="/glossary-app"
+        src="https://cie-ebook-glossary-app.netlify.app/"
         height="calc(100vh - 100%)"
         width="100%"
         style={{
