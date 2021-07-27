@@ -49,15 +49,6 @@ module.exports = {
         },
       },
     },
-    /*
-    announcementBar: {
-      id: "announcement",
-      content: "#BlackLivesMatter",
-      backgroundColor: "#000",
-      textColor: "#fff",
-      isCloseable: true,
-    },
-    */
     gtag: {
       trackingID: "G-SZQK03TWJ3",
       anonymizeIP: true,
@@ -137,8 +128,8 @@ module.exports = {
       "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/wsehl/nis-cwb/tree/master",
+          sidebarPath: require.resolve("./src/sidebar.js"),
+          editUrl: "https://github.com/anyrange/cie-ebook/tree/master",
           routeBasePath: "/",
         },
         theme: {
